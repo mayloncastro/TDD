@@ -1,3 +1,5 @@
+import br.edu.utfpr.userloginapp.LoginResult
+import br.edu.utfpr.userloginapp.LoginValidator
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -5,7 +7,7 @@ class LoginValidatorTest {
 
     @Test
     fun emailAndPasswordAreValid() {
-        val result = LoginValidator.isValid("user@example.com", "password123")
+        val result = LoginValidator.isValid("user@example.com", "123")
         assertEquals(LoginResult.SUCCESS, result)
     }
 

@@ -1,4 +1,4 @@
-
+package br.edu.utfpr.userloginapp
 enum class LoginResult {
     SUCCESS,
     EMPTY_EMAIL,
