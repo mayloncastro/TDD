@@ -7,7 +7,7 @@ class LoginValidatorTest {
 
     @Test
     fun emailAndPasswordAreValid() {
-        val result = LoginValidator.isValid("user@example.com", "123")
+        val result = LoginValidator.isValid("user@example.com", "Password123")
         assertEquals(LoginResult.SUCCESS, result)
     }
 
